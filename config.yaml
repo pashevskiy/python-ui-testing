@@ -1,0 +1,44 @@
+# default environment
+default:
+  url: "https://default_env_host/"
+  accounts:
+    user1:
+      login: user1
+      password: user1Password
+    user2:
+      login: user2
+      password: user2Password
+
+  database:
+    host: "localhost"
+    database: ""
+    user: "postgres"
+    password: "password"
+
+# aqa environment
+aqa:
+  url: "https://aqa_env_host/"
+  accounts:
+    user1:
+      login: user1aqa
+      password: user1aqaPassword
+    user2:
+      login: user2aqa
+      password: user2aqaPassword
+
+  database:
+    host: "localhost"
+    database: ""
+    user: "postgres"
+    password: "password"
+# you can add more envs!
+
+# webdriver configuration
+webdriver:
+  browser: "chrome"
+  headless: False
+
+# run configuration
+system:
+  containerized: False
+  demo_mode: False

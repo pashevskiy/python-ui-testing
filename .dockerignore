@@ -1,0 +1,10 @@
+reports
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+.git
+.pytest_cache
+**/__pycache__
+.vscode
